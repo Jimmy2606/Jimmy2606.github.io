@@ -1,0 +1,187 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin: 0px 100px;
+}
+.nav-cont{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 83, 83);
+    padding: 20px;
+}
+a{
+    margin: 0 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.page-one{
+    margin: 0;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 83, 83);
+    color: white;
+}
+.page-one h3{
+    margin: 0;
+}
+.page-two{
+    padding: 200px 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-two div{
+    margin: 0;
+}
+.page-two p{
+    margin-left: 20px;
+}
+.btn-desc{
+    flex-direction: row;
+}
+.btn-contact{
+    margin-left: 20px;
+    border: 1px solid rgb(255, 83, 83);
+    padding: 13px 45px;
+    background-color: white;
+    border-radius: 50px;
+    transition: 0.25s ease-in-out;
+}
+.btn-contact:hover{
+    color: white;
+    background-color: rgb(255, 83, 83);
+    cursor: pointer;
+}
+.btn-download{
+    border: 1px solid #f53855;
+    padding: 13px 45px;
+    background-color: rgb(255, 83, 83);
+    border-radius: 50px;
+}
+.btn-download:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.page-three{
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-one{
+    margin-right: 20px;
+    background-color: slateblue;
+    padding: 10px;
+    color: white;
+}
+.skill-one button{
+    margin-left: 20px;
+    padding: 13px 45px;
+    background-color: rgb(255, 83, 83);
+    border-radius: 50px;
+    transition: 0.25s ease-in-out;
+}
+.skill-one button:hover{
+    color: white;
+    background-color: rgb(255, 83, 83);
+    cursor: pointer;
+}
+
+.skill-two{
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+}
+.skill-two button{
+    margin-left: 20px;
+    border: 1px solid rgb(255, 83, 83);
+    padding: 13px 45px;
+    background-color: white;
+    border-radius: 50px;
+    transition: 0.25s ease-in-out;
+}
+.skill-two button:hover{
+    color: white;
+    background-color: rgb(255, 83, 83);
+    cursor: pointer;
+}
+.skill-three{
+    background-color: slateblue;
+    padding: 10px;
+    color: white;
+}
+.skill-three button{
+    margin-left: 20px;
+    padding: 13px 45px;
+    background-color: rgb(255, 83, 83);
+    border-radius: 50px;
+    transition: 0.25s ease-in-out;
+}
+.skill-three button:hover{
+    color: white;
+    background-color: rgb(255, 83, 83);
+    cursor: pointer;
+}
+
+.page-four{
+    padding: 100px 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.page-four div{
+    margin-right: 30px;
+    
+}
+.adress{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+}
+.email{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+}
+.phone{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+}
+.comment{
+    padding: 50px;
+    border: 1px solid black;
+}
+.comment button{
+    margin-left: 20px;
+    padding: 13px 45px;
+    color: white;
+    background-color: rgb(255, 83, 83);
+    border-radius: 50px;
+    transition: 0.25s ease-in-out;
+}
+.comment button:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 83, 83);
+    padding: 20px;
+    color: white;
+}
